@@ -7,12 +7,14 @@ font-family: 'Exo 2', sans-serif;
 }
 *,*:before, *:after {
 box-sizing:inherit;
+margin: 0;
+padding: 0;
+border: 0;
 }
 
 .content {
 max-width: 1350px;
 margin: 0px auto;
-padding: 0px 15px;
 }
 
 @media (max-width:1200px) {
@@ -38,23 +40,22 @@ margin-bottom: -8px;
 .menu {
 
 display: flex;
-width:99%;
-max-width: 1350px;
+width:100%;
+max-width: 1400px;
 height: 65px;
-margin-top: -8px;
 z-index: 2;
 position: fixed;
 align-items: center;
-padding: 0px 50px 0px 0px;
 background-color: white;
 text-decoration: none;
 justify-content: space-between;  
+gap: 300px;
 }
 
 .menu-items {
 
     display: flex;
-    margin-right: -30px;
+    
 }
 
 .menu__item {
@@ -106,7 +107,7 @@ display: inline;
 .logo__cerdas {
 font-size: 27px;
 text-align: center;
-margin: 0;
+padding-left: 30px;
 font-family: 'Rampart One', cursive;
 text-shadow: none;
 text-decoration: none;
